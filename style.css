@@ -1,0 +1,88 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family:sans-serif;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(56, 209, 209), rgb(16, 180, 221));
+    display: flex;
+    padding: 50px 30px;
+}
+.left{
+    width: 30%;
+    background-image: url(https://images.unsplash.com/photo-1679161837515-aa234d3a1fff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNsZWFuJTIwdXB8ZW58MHx8MHx8fDA%3D);
+    background-position: center;
+    background-size: cover;
+}
+.left h1{
+    padding: 90% 0% 0px 40px;
+    color: white;
+}
+.left p{
+    padding: 5px 0px 0px 40px;
+    color: white;
+}
+.center{
+    width: 30%;
+    background-color: white;
+    padding:10% 40px 30px 40px ;
+}
+.center h1{
+    color:#38D1D2;   
+}
+.center h3{
+    font-weight: 100;
+    font-size:15px;
+}
+.center input{
+    margin-top: 20px;
+    padding: 5px 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.center input:nth-last-child(2){
+    padding: 5px 95px;
+    text-align: start;
+    
+}
+.center input:nth-last-child(1){
+    padding: 5px 95px;
+}
+.center button:nth-last-child(3){
+    margin: 20px 0px 0px 100px;
+    padding: 5px 50px;
+    color: white;
+    background-color: #38D1D2;
+    font: 15px;
+    border: none;
+    border-radius: 5px;
+}
+ .center button:nth-last-child(1){
+    margin: 20px 0px 0px 15px;
+    padding: 5px 8px;
+    background-color: #38D1D2;
+    border-radius: 5px;
+   
+}
+.center button:nth-last-child(2){
+    margin: 20px 0px 0px 15px;
+    padding: 5px 8px;
+    background-color: #38D1D2;
+    border-radius: 5px;
+}
+    
+.center img{
+    object-position: center;
+    object-fit: cover;
+    text-align: center;
+    
+    
+}
